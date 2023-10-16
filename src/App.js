@@ -1,12 +1,18 @@
 import { ComEx01, ComEx02 } from "./components/ex02/ComEx01";
 import FnComponentEx from "./components/ex02/FnComponentEx";
+import { PropsEx } from "./components/ex03/PropsEx";
 
 const App = () => {
   return (
     <>
-      <div>{/* <h3>오늘은 jsx에 대해서 배웠어요</h3> */}</div>
-      {/* <FnComponentEx /> */}
+      {/* <div>
+        <h3>오늘은 jsx에 대해서 배웠어요</h3>
+      </div>
+      <FnComponentEx />
       <ComEx01 />
+      <ComEx02 /> */}
+
+      <PropsEx />
     </>
   );
 };
