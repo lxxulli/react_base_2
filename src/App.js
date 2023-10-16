@@ -1,6 +1,9 @@
 import { ComEx01, ComEx02 } from "./components/ex02/ComEx01";
 import FnComponentEx from "./components/ex02/FnComponentEx";
 import { PropsEx } from "./components/ex03/PropsEx";
+import { Internet } from "./components/ex04/Internet";
+import { IntroEx } from "./components/ex04/IntroEx";
+import { MapFnEx } from "./components/ex04/MapFnEx";
 
 const App = () => {
   return (
@@ -11,8 +14,14 @@ const App = () => {
       <FnComponentEx />
       <ComEx01 />
       <ComEx02 /> */}
+      {/* 2일차 */}
 
-      <PropsEx />
+      {/* <PropsEx /> */}
+      {/* 3일차 */}
+
+      {/* <MapFnEx /> */}
+      {/* <IntroEx /> */}
+      <Internet />
     </>
   );
 };
