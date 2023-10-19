@@ -5,6 +5,7 @@ import { Internet } from "./components/ex04/Internet";
 import { IntroEx } from "./components/ex04/IntroEx";
 import { MapFnEx } from "./components/ex04/MapFnEx";
 import { Ex05 } from "./components/ex05/Ex05";
+import { Ex06 } from "./components/ex06/Ex06";
 
 const App = () => {
   return (
@@ -25,7 +26,10 @@ const App = () => {
       {/* <Internet /> */}
       {/* 4일차 */}
 
-      <Ex05 />
+      {/* <Ex05 /> */}
+      {/* 5일차 */}
+
+      <Ex06 />
     </>
   );
 };

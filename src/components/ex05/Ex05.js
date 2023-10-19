@@ -4,7 +4,7 @@ import { StyleEx } from "./components/StyleEx";
 export const Ex05 = () => {
   return (
     <>
-      <CssEx />
+      {/* <CssEx /> */}
       <StyleEx />
     </>
   );
