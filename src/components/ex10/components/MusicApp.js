@@ -22,15 +22,16 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  /* background-color: ${colors.darkGray}; */
-  background-color: #808080;
+  background-color: #555;
   color: white;
 `;
 const Container = styled.div`
   max-width: 400px;
   width: 100%;
-  background-color: #1b1b1b;
+  background-color: ${colors.darkGray};
   padding: 50px 20px;
+  position: relative;
+  overflow: hidden;
 `;
 
 export const MusicApp = () => {
