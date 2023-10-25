@@ -11,6 +11,10 @@ export const fontSize = {
   desc: "25px",
 };
 
+export const colors = {
+  darkGray: "#1b1b1b",
+};
+
 export const GlobalStyled = createGlobalStyle`
  ${reset}
  /* - 전체 영역에서 사용할 수 있는 스타일 처리법 */
