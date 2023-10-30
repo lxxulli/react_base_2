@@ -31,10 +31,10 @@ export const Header = () => {
 
       <Nav>
         <li>
-          <Link to={"/sub01"}>sub01</Link>
+          <Link to={"/sub/0"}>1_</Link>
         </li>
         <li>
-          <Link to={"/sub02"}>sub02</Link>
+          <Link to={"/sub/1"}>2_</Link>
         </li>
       </Nav>
     </SHeader>
