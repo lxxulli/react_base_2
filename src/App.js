@@ -14,6 +14,7 @@ import { Ex12 } from "./components/ex12/Ex12";
 import { Ex14 } from "./components/ex14/Ex14";
 import { Ex15 } from "./components/ex15/Ex15";
 import { Exex12 } from "./components/exEx12/Exex12";
+import { Exex15 } from "./components/exEx15/Exex15";
 
 const App = () => {
   return (
@@ -51,7 +52,8 @@ const App = () => {
 
       {/* <Ex14 /> */}
 
-      <Ex15 />
+      {/* <Ex15 /> */}
+      <Exex15 />
     </>
   );
 };
